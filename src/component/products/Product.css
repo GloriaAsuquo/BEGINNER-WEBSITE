@@ -1,0 +1,45 @@
+.products {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.fetch {
+  width: 100%;
+  padding-left: 10px;
+}
+.card {
+  width: 90%;
+  margin-bottom: 10px;
+  height: 50vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 5px #00000067;
+}
+
+.headd {
+  text-align: center;
+}
+.headtop {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.details {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn {
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  background-color: #f12;
+  border-radius: 19px;
+  box-shadow: 0 3px 5px #00000067;
+}

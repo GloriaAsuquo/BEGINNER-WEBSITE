@@ -1,0 +1,31 @@
+.menu {
+  position: absolute;
+  padding-left: 1rem;
+  padding-top: 3rem;
+  top: 3vh;
+  border-radius: 10px;
+  left: 4rem;
+  width: 18vw;
+  display: none;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  list-style: none;
+}
+
+.menu_category li {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.catergory {
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}

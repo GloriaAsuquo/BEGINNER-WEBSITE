@@ -1,0 +1,120 @@
+section {
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: wheat;
+}
+
+section h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 2px white;
+}
+
+
+
+
+
+section p {
+  color: #0ef;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px white;
+}
+
+.sect-1.show-animate.animate {
+  transform: translateX(0);
+}
+
+.sect-1.animate {
+  transform: translateX(100%);
+}
+.sect-2.show-animate {
+  transform: translateX(0);
+}
+
+.sect-2.show-amimate{
+  transform:sect-1.show-animate;
+}
+
+section.animate{
+  transform: translateX(1s);
+}
+
+.sect-2 p {
+  color: #0f0;
+}
+
+.sect-3 p {
+  color: #c0f;
+}
+
+.sect-4 p {
+  color: #ff0;
+}
+
+.blog-one {
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  animation: all ease-in-out 0.5s;
+}
+
+.blog-one-one {
+  width: 50%;
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 3px 5px #00000067;
+  border-top: 2px solid red;
+  transform: scale(1.1);
+  transition: all ease-in-out0.5s;
+  cursor: pointer;
+}
+
+.blog-one-one img {
+  width: 30%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.blog-one :hover {
+  background-color: whitesmoke;
+}
+
+.blog-second {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.blog-second-one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.blog-kull {
+  padding: 20px;
+  /* height: 10vh; */
+  background-color: red;
+  padding-right: 20px;
+  width: 50%;
+}
+
+.blog-kull button {
+  background-color: white;
+  padding: 5px 10px;
+  border: none;
+}
